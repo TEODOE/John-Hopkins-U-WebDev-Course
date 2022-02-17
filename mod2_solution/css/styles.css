@@ -3,7 +3,9 @@
     box-sizing: border-box;
   }
   h1 {
-    margin-bottom: 15px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
   }
   
   p {
@@ -26,7 +28,7 @@
   @media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
       float: left;
-      margin-left: 6%;
+      margin-left: 59.52px;
       border: 1px solid black;
     }
     .col-lg-1 {
