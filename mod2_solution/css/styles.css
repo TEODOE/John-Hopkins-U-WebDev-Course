@@ -44,7 +44,6 @@
   
   p {
     width: 90%;
-    height: 125px;
     margin-right: auto;
     margin-left: auto;
     text-align:left;
@@ -78,7 +77,7 @@
       background-color: #eee;
       position: relative;
       top: 20px;
-      left: 50px;
+      left: 6%;
 
     }
     .col-lg-1 {
