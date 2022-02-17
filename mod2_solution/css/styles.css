@@ -7,6 +7,35 @@
     margin-bottom: 35px;
     text-align: center;
   }
+
+  .title {
+      border: 1px solid black;
+      /* border-bottom: 1px solid black; */
+      position: relative;
+      width: 80px;
+      margin-top: -1px;
+      margin-right: -1px;
+      margin-left: auto;
+  }
+
+  .title p {
+      height: 22px;
+      margin-top: 0px;
+      padding-top: 8px;
+      text-align: center;
+  }
+
+  #t_1 {
+      background-color: rgb(194, 139, 245);
+  }
+
+  #t_2 {
+    background-color: rgb(245, 234, 139);
+}
+
+#t_3 {
+    background-color: rgb(139, 229, 245);
+}
   
   p {
     width: 90%;
@@ -29,7 +58,8 @@
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
       float: left;
       margin-left: 6.4%; /* 59.52px; */
-      border: 1px solid black;
+      border: 2px solid black;
+      background-color: #eee;
     }
     .col-lg-1 {
       width: 8.33%;
