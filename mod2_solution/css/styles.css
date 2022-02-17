@@ -4,13 +4,14 @@
   }
 
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   h1 {
     margin-top: 50px;
     margin-bottom: 35px;
     text-align: center;
+    font-family: 'Fredericka the Great', cursive;
   }
 
   .title {
@@ -49,6 +50,7 @@
     text-align:left;
     font-family: Helvetica;
     color: black;
+    font-weight: 700;
   }
   
   /* Simple Responsive Framework. */
