@@ -99,7 +99,8 @@ p {
   }
 }
 
-@media (min-width: 421px) and (max-width: 990px) {
+/********** Small devices only **********/
+@media (min-width: 650px) and (max-width: 991px) {
   .col-sm {
     float: left;
     border: 1px solid black;
@@ -110,7 +111,8 @@ p {
   }
 }
 
-@media (max-width: 420px) {
+/********** Extra Small devices only **********/
+@media (max-width: 649px) {
   .col-xsm {
     border: 1px solid black;
     position: relative;
