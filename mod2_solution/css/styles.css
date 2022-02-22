@@ -112,7 +112,6 @@ p {
 
 @media (max-width: 420px) {
   .col-xsm {
-    /* float: left; */
     border: 1px solid black;
     position: relative;
     top: 20px;
