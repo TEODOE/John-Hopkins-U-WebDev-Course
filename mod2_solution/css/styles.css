@@ -7,17 +7,21 @@ h1 {
   font-family: 'Fredericka the Great', cursive;
 }
 
+.row {
+  width: 100%;
+}
+
+#container {
+  position: relative;
+}
+
 p {
   background-color: rgb(168, 168, 168);
   border: 2px solid black;
   height: 150px;
   margin-right: 10px;
-  padding: 40px 10px 5px 10px;
-  overflow: hidden;
-}
-
-#container {
-  position: relative;
+  padding: 45px 15px 5px 20px;
+  font-weight: bold;
 }
 
 #t_1, #t_2, #t_3 {
@@ -43,10 +47,6 @@ p {
 
 #t_3 {
   background-color: rgba(0, 0, 255, 0.3);
-}
-
-.row {
-  width: 100%;
 }
 
 /******** Large devices only *******/
