@@ -1,6 +1,42 @@
 
+.navbar-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+#brand {
+    font-size: 2em;
+    margin-left: 20px;
+}
 
+h1 {
+    margin-bottom: 30px;
+}
 
+.navbar-nav>li>a {
+    line-height: 5px;
+    margin: 10px auto;
+}
 
+h2 {
+    margin-top: -30px;
+}
 
+p {
+    margin: 0 -30px 10px;
+}
+
+@media(max-width: 767px) {
+    .jumbotron-fluid {
+        margin-right: 65px;
+        margin-left: 65px;
+    }
+
+    h2 {
+        margin-top: -10px;
+    }
+
+    p {
+        margin: 0 25px 10px;
+    }
+}
