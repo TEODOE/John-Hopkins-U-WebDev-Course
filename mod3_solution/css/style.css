@@ -1,3 +1,8 @@
+.navbar {
+    border: 2px solid black;
+    border-radius: 0;
+    background-color: #999;
+}
 
 .navbar-header {
     padding-top: 5px;
@@ -54,6 +59,10 @@ h3 {
     margin-top: -30px;
     font-weight: bold;
     color: black;
+}
+
+.jumbotron {
+    background-color: #999;
 }
 
 p {
