@@ -25,6 +25,10 @@
     color: black;
 }
 
+.page-header {
+    border: none;
+}
+
 h2 {
     margin-top: -10px;
     margin-bottom: 25px;
@@ -60,10 +64,8 @@ p {
 
 
 @media(max-width: 767px) {
-    .jumbotron {
-        margin-right: 50px;
+    .container {
         margin-left: 50px;
-        border-radius: 0;
     }
 
     .navbar-brand {
